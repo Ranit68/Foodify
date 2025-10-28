@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+/.idea/
+/*.iml
+local.properties
+
+# Generated files
+app/google-services.json
+
+# Keystore
+*.jks
+*.keystore
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+
+# Android Studio capture files
+captures/
+
+# Misc
+.DS_Store
+*.log
+
+# Firebase emulator files, if any
+.firebase/
+
+# Gradle wrapper/cache (optional)
+.gradle
+
+# Node (if you accidentally have node files)
+node_modules/
+
+# macOS
+.DS_Store
