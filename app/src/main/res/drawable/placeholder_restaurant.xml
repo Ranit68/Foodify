@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="200"
+    android:viewportHeight="150">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#FFE0E0E0"
+        android:pathData="M0,0h200v150h-200z" />
+
+    <!-- Simple Restaurant Icon (Fork and Knife) -->
+    <path
+        android:fillColor="#FF9E9E9E"
+        android:pathData="M80,60 L85,60 L85,100 L80,100 Z" /> <!-- Fork handle -->
+
+    <path
+        android:fillColor="#FF9E9E9E"
+        android:pathData="M85,60 L90,60 L90,100 L85,100 Z" /> <!-- Knife handle -->
+
+    <path
+        android:fillColor="#FF9E9E9E"
+        android:pathData="M75,50 L95,50 L90,60 L80,60 Z" /> <!-- Fork prongs -->
+
+    <path
+        android:fillColor="#FF9E9E9E"
+        android:pathData="M85,50 L95,50 L90,60 L85,60 Z" /> <!-- Knife blade -->
+
+    <!-- Placeholder Text -->
+    />
+
+</vector>

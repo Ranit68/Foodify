@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tilAddressLandmark" type="id" />
+    <item name="tilAddressPhone" type="id" />
+    <item name="tilAddressLine1" type="id" />
+    <item name="tilAddressPincode" type="id" />
+    <item name="tilAddressLine2" type="id" />
+    <item name="tilAddressName" type="id" />
+</resources>

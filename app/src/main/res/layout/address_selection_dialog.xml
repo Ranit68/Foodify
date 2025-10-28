@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Select Delivery Address"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/addressRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/addAddressButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Address"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFF"/>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="29dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:id="@+id/billSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/totalItemsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Items: 0"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/totalPriceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price: ₹0"
+            android:textSize="16sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <!-- Address Section -->
+    <LinearLayout
+        android:id="@+id/addressSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/selectedAddressText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="No address selected"
+            android:textColor="#333"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/selectAddressButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Address"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFF"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
